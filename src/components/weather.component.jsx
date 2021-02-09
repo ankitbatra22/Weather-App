@@ -6,7 +6,7 @@ function Weather(props) {
    // <div className="background">
       <div className="container"> 
         <div className="cards pt-4">
-          <h1>Weather App Initial</h1>
+          <h1>Ankit's Weather App</h1>
           
           <h2>{props.city}, {props.country}</h2>
           <h5 className="py-4">
