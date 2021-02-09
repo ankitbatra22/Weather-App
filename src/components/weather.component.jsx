@@ -3,11 +3,9 @@ import { createPortal } from 'react-dom';
 
 function Weather(props) {
   return (
-   // <div className="background">
       <div className="container"> 
         <div className="cards pt-4">
           <h1>Ankit's Weather App</h1>
-          
           <h2>{props.city}, {props.country}</h2>
           <h5 className="py-4">
             <i className={props.icon}></i>
@@ -28,8 +26,8 @@ export default Weather;
 function showMinMax(min, max) {
   return (
     <h3>
-    <span className="px-4">{min}&deg;</span>
-    <span className="px-4">{max}&deg;</span> 
+      <span className="px-4">{min}&deg;</span>
+      <span className="px-4">{max}&deg;</span> 
     </h3>
   )
 }
