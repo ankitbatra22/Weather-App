@@ -9,6 +9,7 @@ form input[name="country"] {
   border:0;
   border-bottom: 2px solid whitesmoke;
   border-radius: 0;
+  size:140%;
 }
 
 form input:focus {
@@ -18,5 +19,10 @@ form input:focus {
 
 form input, 
 .container::-webkit-input-placeholder {
-  color: black !important;
+  color:white !important;
+}
+
+.h1 {
+  color:white
+
 }
