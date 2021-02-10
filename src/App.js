@@ -52,6 +52,7 @@ celsiusCalc(temp) {
   let c = Math.floor(temp - 273.15);
   return c
 }
+
 weatherIcon = {
   Thunderstorm: "wi wi-thunderstorm",
   Drizzle: "wi wi-sleet",
