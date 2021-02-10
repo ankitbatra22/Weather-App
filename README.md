@@ -1,5 +1,5 @@
 # Weather-App
-React Web application which uses Open-Weather-API to display weather for given city. 
+React Web application which uses Open-Weather-API to display weather for given city. Responsive web page with simplistic layout / color scheme
 
 ## Available Scripts
 
