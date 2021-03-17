@@ -7,29 +7,6 @@ import 'weather-icons/css/weather-icons.css'
 
 const key = 'b2788703be160b952a9a79994fb6485b'
 
-/*
-function Tweather() {
-  const[data, setData] = useState(null);
-  useEffect(() => {
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=${key}`)
-    .then(res => res.json())
-    .then(setData)
-    .catch(console.error)
-    console.log(JSON.stringify(data));
-
-  }, []);
-  return (
-    <div>
-      <h1>{JSON.stringify(data)}</h1>
-      <h1>Testing</h1>
-      
-    </div>
-  )
-  
-}
-*/
-
-
 class App extends Component {
   constructor() {
     super();
